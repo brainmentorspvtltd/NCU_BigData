@@ -1,0 +1,125 @@
+Cloud Computing
+
+- Need of cloud computing
+- Types of cloud computing
+- Deployment Models
+- Cloud Services
+- Architecture of cloud environment
+- Google Cloud Platform
+
+- Suppose you want to build and host a website
+  - tools for coding platform
+  - database
+  - server
+
+
+Cloud Computing
+- use of network of remote servers hosted on internet to store, manage and process data
+- storing or accessing your data over the internet
+
+- it is the delivery of computing services
+  - server
+  - storage
+  - databases
+  - networking
+  - software
+  - analytics
+
+
+3 most important characterstics of cloud computing
+- on-demand & self-serviced - launch anytime without manuel intervention
+- elasticity - scale up and down
+- measurd service - pay what you use
+
+Advantages of cloud
+- speed
+- cost
+- scalability
+- accessibility
+- security
+
+
+Deployment Models
+- Public  - AWS, Azure
+- Private - AWS
+- Hybrid  - Public + Private
+
+
+Service Models
+- IaaS - Infrastructure as a Service
+  - we rent IT insfrastructure (server and networks..) from cloud provide on 
+    pay-as-you-go basis
+- PaaS - Platform as a Service
+  - a platform on which software can be developed and deployed
+- SaaS - Software as a Service
+  - cloud providers host and manage the software application on subscription basis
+
+
+Architecture of Cloud Environment
+- Cloud is data center inside
+- Data center has physical servers
+- on top of physical servers we have virtualization environment
+- on top of virtualization environment we have virtual server
+
+
+
+
+Services by Google Cloud
+
+Compute
+- Compute Engine
+- App Engine
+- Kubernetes Engine
+- Container Registery
+- Cloud Functions
+
+Storage and Database
+- Cloud Storage
+- Cloud Bigtable
+- Cloud Datastore
+- Cloud SQL
+- Cloud Spanner
+- Persisten Disk
+
+Network Services
+- Cloud Virtual Network
+- Cloud CDN
+- Cloud Load Balancing
+- Cloud DNS
+- Cloud Interconnect
+
+Security and Identity Services
+- IAM
+- Cloud Resource Manager
+- Cloud Security Scanner
+- Cloud Platform Security
+
+Machine Learning and AI Services
+- Cloud Machine Learning
+- Vision API
+- Speech API
+- NLP API
+- Translation API
+
+Devops
+- Cloud SDK
+- Deployment Manager
+- Cloud Tools for IntelliJ
+- Powersheel cloud tools
+- VS Cloud Tools
+
+Management Tools
+- Stackdriver
+- Trace
+- Error Reporting
+- Logging
+- Billing App
+- Cloud Console
+
+
+
+
+
+
+
+

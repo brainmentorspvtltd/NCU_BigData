@@ -1,0 +1,30 @@
+1024 GB = 1TB
+1024 TB = 1PB
+1024 PB = 1EB (Exa Byte)
+1024 EB = 1ZB
+
+Parallel Processing
+
+
+- CPU Speed
+- Network
+- Memory - Size of RAM
+- HDD, SSD
+
+
+What is Big Data ?
+How big is Big Data ?
+Types of Data
+5Vs of Big Data
+
+Challenges in Big Data
+- Data Quality
+- Data Storage
+- Data Security
+- Data Discovery
+- Data Analytics
+
+Hadoop
+
+
+
