@@ -1,0 +1,128 @@
+Cloud Computing
+
+- Need of cloud computing
+- Types of cloud computing
+- Deployment Models
+- Cloud Services
+- Architecture of Cloud
+- Google Cloud
+
+
+- Suppose we want to build and host a webiste
+  - developer team - machines + softwares
+  - database team
+  - server team
+     - purchase
+     - rent
+
+Introduction to Cloud Computing
+- it is the use of network of remote servers hosted on internet to store, manage and process data
+- it is the delivery of computing services like servers, storage, databases, software, analytics over the internet
+
+3 important characterstics of cloud computing
+- on-demand and self-service (launch any service any time without intervention)
+- elasticity (scale up and down easily)
+- measure service (pay what you use)
+
+
+Benefits of Cloud
+- Speed
+- Cost
+- Scalability
+- Accessiblity
+- Security
+
+
+Types of cloud computing
+- Deployment Models
+  - Public Cloud
+  - Private Cloud - services and infrastructure are maintained on a private network
+  - Hybrid Cloud  - Public + Private
+
+- Cloud Services Models
+  - IaaS - Infrastructre as a Service
+    - we rent IT infrastructure (Server, Network) from a cloud provider on 
+      pay-as-you-go basis
+  - PaaS - Platform as a Service
+    - platform on which software can be developed and deployed
+    - Google App Engine, AWS Elastic Beanstalk
+  - SaaS - Software as a Service
+    - cloud providers host and manage the software application on a subscription       basis
+    - Microsoft 365, Google Docs
+
+
+Architecture of Cloud Computing
+- Cloud is data center internally
+- Data center has multiple physical servers
+- on top of physical servers we have virtual environment
+- on top of virtual environment we have virtual servers
+
+
+Google Cloud Services
+
+Compute
+- Compute Engine
+- App Engine
+- Kubernetes Engine
+- Container Registery
+- Cloud Functions
+
+Storage & Database Services
+- Cloud Storage
+- Cloud Bigtable
+- Cloud DataStore
+- Cloud SQL
+- Cloud Spanner
+- Persistent Disk
+
+Network Services
+- Cloud Virtual Network
+- Cloud Load Balancing
+- Cloud CDN
+- Cloud Interconnect
+
+Security & Identity Services
+- IAM - Identity Access Management
+- Resource Manager
+- Security Scanner
+- Platform Security
+
+
+AI & ML Services
+- Cloud Machine Learning
+- Auto ML
+- NLP API
+- Speech API
+- Vision API
+
+Devops
+- Cloud SDK
+- VS Cloud Tools
+- Plugin for Eclipse
+- Deployment Manager
+- Cloud Source Repository
+
+Management Tools
+- Stackdriver
+- Logging
+- Monitoring
+- Error Reporting
+- Debugger
+- Trace
+- Deployment Manager
+
+Account Setup
+
+Ways to interact with GCP
+- Web Console
+- Cloud Shell
+- Mobile App
+- Rest API
+
+gcloud compute regions list
+
+
+
+
+
+
