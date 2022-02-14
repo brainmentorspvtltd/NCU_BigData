@@ -1,0 +1,64 @@
+Ways to interact with GCP
+- Web Console
+- GCP Cloud Shell - Command Line Tool
+- Console Mobile App - Ios and Android
+- REST API  = For Custom Application
+
+
+gcloud
+npm
+python
+vim
+ruby
+docker
+bash
+bq
+
+
+1. Create a new project
+2. Execute these commands
+gcloud version
+npm version
+python --version
+gcloud auth list
+gcloud config set project ncuproject2
+
+GCP Pricing
+- pay per second
+- No Upfront cost
+- Pay as you go
+- No Termination Fee
+- Sustained Use Discount
+
+
+
+GCP : Compute Engine
+  - Google IaaS virtual machine offering
+
+Machine Types
+- these are templates of virtualized hardware that will be available to the VM instances - CPU, Disk capabilities
+
+- Standard      - ideal for 3-4 gb of RAM
+- High Memory   - ideal for above 6 gb of RAM
+- Shared Core
+- Large         - Upto 1TB of memory
+- Custom
+
+- App Engine - PaaS
+- Compute Engine - Introduced Linux and Windows VMs
+- Kubernetes Engine
+  - automatic deployment, scaling and management of containerized applications
+- Cloud Function
+  - serverless execution environment for building and executing cloud services
+
+
+
+
+
+
+
+
+
+
+
+

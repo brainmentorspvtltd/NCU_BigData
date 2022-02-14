@@ -1,0 +1,9 @@
+sudo apt-get update
+sudo apt-get -y -qq install git
+top
+free -m
+free -g
+
+gcloud compute instance create [INSTANCE_NAME] --machine-type n1-standard-2 --zone [ZONE_NAME] = create new instance
+
+gcloud compute instances create my-cli-instance
