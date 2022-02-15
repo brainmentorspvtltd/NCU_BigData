@@ -1,0 +1,69 @@
+Storage
+
+Block Storage          - GCP VMs - Persisten Disk
+Immutable Blobs        - Cloud Storage
+RDBMS                  - CloudSQL & CloudSpanner
+NoSQL                  - Key-Value - BigTable
+NoSQL Database         - DataStore
+Import Data in Cloud   - Transfer Service
+
+Google Cloud Storage
+- RESTFUL Online file storage web service for storing and accessing data on google cloud
+- It's an IaaS
+- it could also be accessed globally via HTTP URL
+- Auto Scalable
+
+Terminology
+- Buckets
+  - These are the containers that hold your data
+- Bucket Name
+  - Bucket Names are always unique globally
+- Bucket Lables
+  - It's a key and value pair metadata, that allows you to group your bucket
+- Objects
+  - Individual piece of data
+
+Versioning
+- Cloud storage allows to version the stored objects
+- we need to enable versioning explicitly, if we don't set versioning then new objects terminates the old...
+
+
+Life Cycle
+- Life cycle management policy
+- we create a json for life cycle steps
+
+4 types of cloud storage
+- Mulit-regional
+  - Most Frequently Accessed
+  - Content Storage & Delivery
+  - 99.95%
+- Regional
+  - Accessed Frequently but within a region
+  - In-region analytics
+  - 99.90%
+- Nearline
+  - Accessed once in one or two months
+  - Long-tail content, Backups
+  - 99.00%
+- Coldline
+  - Accessed less than once a year
+  - Archiving
+  - 99.00%
+
+SLA - Service Level Agreement
+
+
+How GCP Services use Cloud Storage
+- Big Query - Import and Export Tables
+- App Engine - Object Storage, logs backup
+- SQL - Import and Export Tables
+- Compute Engine - Startup Script
+
+Commands to create bucket
+- create bucket = gsutil mb gs://bmpl-cli-bucket
+- upload file   = gsutil cp zOZVui.gif gs://bmpl-cli-bucket
+- make public   = gsutil acl ch -u ALLUsers:R gs://bmpl-cli-bucket/zOZVui.gif
+
+
+
+
