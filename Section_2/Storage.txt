@@ -1,0 +1,82 @@
+Cloud Storage
+
+Types of cloud storage options
+- Block Storage for GCP VMs  - Persistent Disk
+- Immutable Blobs            - Cloud Storage
+- RDBMS 		     - CloudSQL & CloudSpanner
+- NoSQL Database 	     - DataStore
+- NoSQL Key Value 	     - BigTable
+- Import Data in Cloud	     - Transfer Service
+
+
+Google Cloud Storage
+- RESTFUL online file storage web service for storing and accessing data
+- It's an IaaS
+- It's a persistent storage and it available globally via HTTP
+- It is auto scalable service
+
+
+Terminology
+- Buckets
+  - Containers that store your data
+- Bucket Names
+  - Bucket names are globally unique
+- Bucket Labels
+  - labels are key:value metadata pair
+- Object
+  - individual entity / individual piece of data
+    - 2 components of Object : Object Data & Object Meta Data
+
+Versioning
+- Cloud Storage allows you to version the stored objects
+- we need to enable versioning explicitly
+
+Life Cycle
+- Cloud Storage has a life cycle management policy
+- Life cycle is defined using {key : value}
+
+
+Google Cloud Storage Option
+- Multi-regional
+  - Most Frequently Accessed data
+  - Content Storage & Delivery
+- Regional
+  - Most Frequently Accessed within a region
+  - In-region analytics
+- Nearline
+  - Accessed less than once a month
+  - Long-tail content, backup
+- Coldline
+  - Once is a year
+  - Archiving
+
+New Names for storage types
+- Standard Storage
+  - Best for short-term storage and frequently accessed data
+- Nearline
+  - Best for backups and data accessed less than once a month
+- Coldline
+  - Best for disaster recovery and data accessed less than once a quarter
+- Archive Storage
+  - Best for long-term digital preservation of data accessed less than once a year
+
+
+GCP Services using Cloud Storage
+- BigQuery        - Import & Export Tables
+- App Engine      - Object Storage, logs backups
+- Compute Engine  - Startup Scripts
+- SQL             - Import & Export Tables
+
+
+Commands for Cloud Shell
+create bucket    - gsutil mb gs://bmpl-second-bucket
+upload file      - gsutil cp zOZVui.gif gs://bmpl-second-bucket
+make file public - gsutil acl ch -u ALLUsers:R gs://bmpl-second-bucket/zOZVui.gif
+
+
+
+
+
+
+
+
