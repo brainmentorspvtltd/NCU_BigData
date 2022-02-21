@@ -1,0 +1,19 @@
+GCP Database Services
+
+- Cloud SQL
+- Cloud Spanner
+- BigQuery
+- BigTable
+- FireStore / DataStore
+- MemoryStore
+
+Object Storage			Cloud Storage				Images/Videos
+Block Storage				Persistent Disk			VMs / Storage for Databases
+Block Storage				SSD							Caching
+Archival Storage			Cloud Storage				Backup
+Mobile App Service		Firebase						Upload over Mobile Network
+File Storage				Workspace					Access files from anywhere from drive
+
+
+gcloud sql connect bmpl-mysql --user=root
+================================================================================

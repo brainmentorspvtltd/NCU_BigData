@@ -1,0 +1,15 @@
+HDFS Commands
+- Create directory
+  hadoop fs -mkdir /data_section_2 
+
+- Upload File
+  hadoop fs -put "D:\Trainings\NCU_BigData\GoogleCloud\Section_2\sql_gcp.txt" /data_section_2
+
+- List Directory
+  hadoop fs -ls /data_section_2 
+
+- Verify/Show content of the file
+  hadoop dfs -cat /data_section_2/sql_gcp.txt 
+
+- Run jars
+  hadoop jar "C:/hadoop-3.3.0/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.0.jar" wordcount /data_section_2/sql_gcp.txt /output_dir
