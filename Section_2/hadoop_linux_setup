@@ -49,7 +49,7 @@ Command 1: tar -xvf jdk-8u101-linux-i586.tar.gz
 Command 2: javac -version
 
 or install java using terminal
-Command 1: sudo-apt update
+Command 1: sudo apt update
 Command 2: sudo apt install openjdk-8-jdk openjdk-8-jre
 
 Verify 
