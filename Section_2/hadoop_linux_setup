@@ -57,8 +57,8 @@ Command 3 : javac -version
 
 Setup JAVA_HOME and JRE_HOME
 Command 1 : sudo nano /etc/environment
-Command 2 : JAVA_HOME="/usr/lib/jvm/...."
-Command 3 : JRE_HOME="/usr/lib/jbm/....." and exit
+Command 2 : JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+Command 3 : JRE_HOME="/usr/lib/jvm/java-8-openjdk-amd-64/jre" and exit
 Command 4 : source nano /etc/environment
 Command 5 : $echo $JAVA_HOME
 
