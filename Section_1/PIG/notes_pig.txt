@@ -1,0 +1,41 @@
+data = LOAD 'file.txt' using PigStorage(' ') as  (Columns:DataType)
+
+data = LOAD 'hdfs://localhost:9870/input/wc_demo.txt' AS (line:chararray);
+
+or
+
+data = LOAD 'hdfs://localhost:9000/input/wc_demo.txt' AS (line:chararray);
+
+============================================
+
+tokens = foreach data generate flatten(TOKENIZE(line)) as token:chararray;
+letters = foreach tokens generate SUBSTRING(token, 0,1) as single_letter:chararray;
+letters_group = GROUP all_letters by single_letter;
+count_letters = foreach letters_group generate group, COUNT(all_letters);
+
+"Men in Black"
+"Titanic"
+"Men in Black 2"
+"Vertical Limit"
+"Life of Pie"
+"Madagasscar"
+
+["M","T","M","V","L","M"]
+
+"M" - 3
+"T" - 1
+"L" - 1
+"V" - 1
+
+data = LOAD 'u.item' USING PigStorage('|') as( m_id:int, m_name : chararray, m_year:chararray, imdb_link:chararray )
+
+rating = LOAD 'u.data' USING......
+
+m_data = foreach data generate m_id, m_name
+group_data = GROUP rating by m_id
+
+avg_rating = foreach groud_data generate group as m_id, avg(ratings.rating)
+
+filter_data = filter avg_rating by avg > 4.00;
+top_5 = LIMIT filter_data 5;
+
