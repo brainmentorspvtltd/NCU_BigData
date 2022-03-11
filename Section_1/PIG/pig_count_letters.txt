@@ -1,0 +1,5 @@
+1. data = LOAD /data.txt/ as (line:chararray);
+2. tokens = foreach data generate flatten(TOKENIZE(line)) As token:chararray;
+3. all_letters = foreach tokens generate SUBSTRING(token,0,1) as single_letter:chararray;
+4. letter_grp = GROUP letters by letter;
+5. count_letter = FOREACH letter_grp generate group , COUNT(letters);
