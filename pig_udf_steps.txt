@@ -1,0 +1,21 @@
+1. Open cmd in pig/bin folder
+2. type : pig -x local
+3. data = LOAD 'D:/products_demo.txt' USING PigStorage(',') AS (name:chararry, price:int, color:chararray);
+4. dump data;
+
+
+UDF - User Defined Function
+
+1. Start Eclipse
+2. Create maven project
+3. Add Dependencies of Pig, Hadoop
+4. Create Java Class and add logic
+5. Build jar
+6. REGISTER '/D:/Trainings/pig_udf.jar'
+7. data = LOAD 'D:/products_demo.txt' USING PigStorage AS (name:chararray, price:int, color:chararray)
+8. toUpper = FOREACH data GENERATE pig_udf.App(name);
+
+
+
+
+
