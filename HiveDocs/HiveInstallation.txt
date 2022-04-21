@@ -35,7 +35,7 @@ Configure hive-site.xml
 
 Download all : https://github.com/HadiFadl/Hive-cmd
 Copy and paste files from Hive-cmd-master/bin to HIVE_HOME/bin
-Replace guava-19.0.jar with guava-27.0-jre.jar
+Replace C:\apache-hive-3.1.3-bin\lib\guava-19.0.jar with guava-27.0-jre.jar
 
 Try Executing Hive Now
 - start hadoop
