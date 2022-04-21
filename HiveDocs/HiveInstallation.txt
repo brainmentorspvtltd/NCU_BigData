@@ -5,7 +5,6 @@ Set path for DERBY_HOME
 Set system variable : HADOOP_USER_CLASSPATH_FIRST: “true”
 Copy all files from DERBY_HOME/lib to HIVE_HOME/lib
 Create hive-site.xml inside HIVE_HOME/conf
-We need to copy the hive-default.xml.template file and paste it in the same location and rename it to hive-site.xml.
 Configure hive-site.xml
 
 <?xml version="1.0"?>
