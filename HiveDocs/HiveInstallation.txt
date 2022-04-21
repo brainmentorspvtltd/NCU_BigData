@@ -51,7 +51,7 @@ Create Symbolic link : mklink /J  C:\cygdrive\c\ C:\
 Open Cygwin and enter following commands : 
 export HADOOP_HOME='/cygdrive/c/hadoop-3.3.0'
 export PATH=$PATH:$HADOOP_HOME/bin
-export HIVE_HOME='/cygdrive/c/apache-hive-3.1.3'
+export HIVE_HOME='/cygdrive/c/apache-hive-3.1.3-bin'
 export PATH=$PATH:$HIVE_HOME/bin
 export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:$HIVE_HOME/lib/*.jar
 $HIVE_HOME/bin/schematool -dbType derby -initSchema
