@@ -45,9 +45,13 @@ Example : INSERT INTO students_details values (101, "Ram", "NCU", "CS");
 2nd Way : Load data from a file
 LOAD DATA LOCAL INPATH 'D:/dataset/data.txt' INTO TABLE table_name;
 
+LOAD DATA LOCAL INPATH 'D:/file_1.txt' INTO TABLE students_details;
+
 3rd Way : Load data from another table
 INSERT INTO table_name SELECT * FROM table_2;
 
+4th Way : Load Data from HDFS
+LOAD DATA INPATH 'hdfs://localhost:9000/input_data/emp.txt' OVERWRITE INTO TABLE employee_2;
 
 6. Select Data From Table
 
